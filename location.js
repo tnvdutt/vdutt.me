@@ -26,7 +26,7 @@ function degreesToRadians(degrees) {
 // Function to display the distance
 function displayDistance(distance) {
     const distanceInfo = document.getElementById("distance-info");
-    distanceInfo.textContent = `You are ${distance.toFixed(2)} km away from Singapore.`;
+    distanceInfo.textContent = `You are ${distance.toFixed(2)} km away from me yet we are connected!.`;
 }
 
 // Geolocation success callback
