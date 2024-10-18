@@ -30,6 +30,19 @@ header p {
     color: #666;
 }
 
+/* Back Link Styles */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
 /* Blog Post Section Styles */
 .blog-posts {
     display: grid;
