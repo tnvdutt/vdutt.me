@@ -44,3 +44,31 @@ a:hover {
     margin-bottom: 20px;  /* Space between the logo and the text */
 }
 
+/* Dynamic Text Block Styling */
+.dynamic-text-block {
+    display: inline-block; /* Ensures the width adjusts to content */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.dynamic-text-block:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .dynamic-text-block {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
