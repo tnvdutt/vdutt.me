@@ -45,7 +45,7 @@ a:hover {
 }
 
 /* Dynamic Text Block Styling */
-.dynamic-text-block {
+text-block {
     display: inline-block; /* Ensures the width adjusts to content */
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -60,14 +60,14 @@ a:hover {
 }
 
 /* Hover Effect */
-.dynamic-text-block:hover {
+text-block:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    .dynamic-text-block {
+    text-block {
         font-size: 1rem;
         padding: 8px 15px;
     }
