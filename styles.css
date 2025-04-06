@@ -71,4 +71,11 @@ text-block:hover {
         font-size: 1rem;
         padding: 8px 15px;
     }
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
 }
