@@ -82,7 +82,7 @@ p {
     border-radius: 5px;
 }
 
-.experience-item, .education-item {
+.experience-item, .education-item, .about-me {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
